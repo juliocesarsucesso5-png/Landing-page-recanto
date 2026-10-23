@@ -79,12 +79,14 @@ const MENSAGEM_PADRAO =
       menu.hidden = true;
       botaoMenu.setAttribute("aria-expanded", "false");
       topo.classList.remove("aberto");
+      document.body.classList.remove("menu-aberto");
     };
     botaoMenu.addEventListener("click", function () {
       const abrir = menu.hidden;
       menu.hidden = !abrir;
       botaoMenu.setAttribute("aria-expanded", abrir ? "true" : "false");
       topo.classList.toggle("aberto", abrir);
+      document.body.classList.toggle("menu-aberto", abrir);
     });
     menu.addEventListener("click", function (ev) {
       if (ev.target.closest("a")) fecha();
