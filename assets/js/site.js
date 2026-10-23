@@ -1,7 +1,7 @@
 /* ==========================================================================
    NÚMERO DO WHATSAPP DAS RESERVAS
-   É o único lugar que precisa mudar. Escreva só os números, começando por
-   55 (Brasil) e o DDD. Exemplo: "5531999999999".
+   É o único lugar que precisa mudar. Escreva o número com DDD, só os números.
+   Exemplo: "31999999999". O 55 do Brasil é colocado sozinho.
    Enquanto estiver vazio, os botões levam para a seção "Reserve".
    ========================================================================== */
 const WHATSAPP = "";
@@ -12,9 +12,10 @@ const MENSAGEM_PADRAO =
 (function () {
   "use strict";
 
-  const numero = WHATSAPP.replace(/\D/g, "");
-  const temNumero = numero.length >= 12;
-  const reduzMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // Aceita "(31) 99999-9999", "31999999999" ou "5531999999999".
+  let numero = WHATSAPP.replace(/\D/g, "");
+  if (numero.length === 10 || numero.length === 11) numero = "55" + numero;
+  const temNumero = /^55\d{10,11}$/.test(numero);
 
   function linkWhatsApp(texto) {
     return "https://wa.me/" + numero + "?text=" + encodeURIComponent(texto);
@@ -45,74 +46,55 @@ const MENSAGEM_PADRAO =
     }
   }
 
-  /* ---------- Topo: sombra ao rolar ---------- */
+  /* ---------- Topo: transparente sobre a foto, sólido depois dela ---------- */
 
   const topo = document.querySelector("[data-topo]");
-  if (topo) {
-    const marcaRolagem = function () {
-      topo.classList.toggle("rolou", window.scrollY > 8);
-    };
-    marcaRolagem();
-    window.addEventListener("scroll", marcaRolagem, { passive: true });
-  }
+  const abertura = document.querySelector(".abertura");
+  const flutuante = document.querySelector("[data-flutuante]");
+  const reservar = document.querySelector("#reservar");
 
-  /* ---------- Janela da abertura ---------- */
-
-  const janela = document.querySelector("[data-janela]");
-  if (janela && !reduzMovimento) {
-    document.documentElement.classList.add("anima");
-    const img = janela.querySelector("img");
-    const abrir = function () {
-      requestAnimationFrame(function () {
-        janela.classList.add("aberta");
-      });
-    };
-    if (img && !img.complete) {
-      img.addEventListener("load", abrir, { once: true });
-      img.addEventListener("error", abrir, { once: true });
-      // Conexão lenta: não deixa a janela fechada esperando a foto.
-      setTimeout(abrir, 1800);
-    } else {
-      abrir();
+  const aoRolar = function () {
+    const limite = abertura ? abertura.offsetHeight - 120 : 200;
+    const passou = window.scrollY > limite;
+    if (topo) topo.classList.toggle("solido", window.scrollY > 40);
+    if (flutuante) {
+      let mostra = passou;
+      if (reservar) {
+        const r = reservar.getBoundingClientRect();
+        if (r.top < window.innerHeight * 0.75 && r.bottom > window.innerHeight * 0.25) mostra = false;
+      }
+      flutuante.classList.toggle("visivel", mostra);
     }
-    const folha = janela.querySelector(".janela__folha--dir");
-    if (folha) {
-      folha.addEventListener("animationend", function () {
-        janela.classList.add("recolhida");
-      });
-    }
-  }
+  };
+  aoRolar();
+  window.addEventListener("scroll", aoRolar, { passive: true });
+  window.addEventListener("resize", aoRolar);
 
-  /* ---------- Barra de reserva no celular ---------- */
+  /* ---------- Menu do celular ---------- */
 
-  const barra = document.querySelector("[data-barra]");
-  const gatilho = document.querySelector("[data-acompanha-barra]");
-  const zonasSemBarra = document.querySelectorAll("#reservar, #onde, .rodape");
-  if (barra && gatilho && "IntersectionObserver" in window) {
-    let passouAbertura = false;
-    const zonasVisiveis = new Set();
-    const atualiza = function () {
-      const mostra = passouAbertura && zonasVisiveis.size === 0;
-      barra.classList.toggle("visivel", mostra);
-      barra.setAttribute("aria-hidden", mostra ? "false" : "true");
-      barra.querySelectorAll("a").forEach(function (a) {
-        a.tabIndex = mostra ? 0 : -1;
-      });
+  const botaoMenu = document.querySelector("[data-menu-botao]");
+  const menu = document.querySelector("[data-menu]");
+  if (botaoMenu && menu && topo) {
+    const fecha = function () {
+      menu.hidden = true;
+      botaoMenu.setAttribute("aria-expanded", "false");
+      topo.classList.remove("aberto");
     };
-    new IntersectionObserver(function (entradas) {
-      entradas.forEach(function (e) {
-        passouAbertura = !e.isIntersecting && e.boundingClientRect.top < 0;
-      });
-      atualiza();
-    }).observe(gatilho);
-    const obsZonas = new IntersectionObserver(function (entradas) {
-      entradas.forEach(function (e) {
-        if (e.isIntersecting) zonasVisiveis.add(e.target);
-        else zonasVisiveis.delete(e.target);
-      });
-      atualiza();
+    botaoMenu.addEventListener("click", function () {
+      const abrir = menu.hidden;
+      menu.hidden = !abrir;
+      botaoMenu.setAttribute("aria-expanded", abrir ? "true" : "false");
+      topo.classList.toggle("aberto", abrir);
     });
-    zonasSemBarra.forEach(function (z) { obsZonas.observe(z); });
+    menu.addEventListener("click", function (ev) {
+      if (ev.target.closest("a")) fecha();
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !menu.hidden) {
+        fecha();
+        botaoMenu.focus();
+      }
+    });
   }
 
   /* ---------- Galeria: filtros ---------- */

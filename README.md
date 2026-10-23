@@ -17,11 +17,14 @@ instalar nada para funcionar.
 const WHATSAPP = "";
 ```
 
-pelo número com 55 (Brasil) e o DDD, só os números. Exemplo:
+pelo número com DDD. Exemplo:
 
 ```js
-const WHATSAPP = "5531999999999";
+const WHATSAPP = "31999999999";
 ```
+
+Pode escrever com ou sem parênteses, espaço e traço, e com ou sem o 55: a
+página arruma sozinha.
 
 Pelo próprio GitHub dá para fazer isso: abra o arquivo, clique no lápis
 ("Edit this file"), troque o número e clique em "Commit changes".
@@ -53,6 +56,11 @@ aparecer a foto do sítio quando alguém manda o link numa conversa.
 - Ainda não há fotos da piscina, da piscina infantil, do playground e do jardim
   iluminado à noite. A página fala desses itens em texto. Quando tiver as fotos,
   elas entram na galeria e na seção "Lazer para todas as idades".
+- As fotos vieram pelo WhatsApp, que reduz tudo para 1280 px. Na abertura, que
+  ocupa a tela inteira do computador, isso deixa a imagem um pouco macia. Se
+  puder, mande as fotos originais do celular (sem passar pelo WhatsApp, por
+  exemplo pelo Google Fotos ou por e-mail como arquivo) para a abertura ficar
+  nítida.
 
 ## Como ver a página no computador
 

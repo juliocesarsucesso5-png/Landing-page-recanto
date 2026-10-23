@@ -38,11 +38,12 @@ Fatos confirmados pelo dono:
 - Suítes: 4 suítes.
 - Casa: 3 quartos, 2 banheiros, cozinha convencional bem espaçosa.
 - Área de lazer: piscina para adultos e piscina infantil; churrasqueira; cozinha industrial com utensílios disponíveis; grande estrutura de mesas e assentos; 2 lavabos; playground; lagoa para pesca; amplo jardim com iluminação noturna.
-- Ocasiões: aniversários, confraternizações, encontros de família, descanso.
+- Frase do dono: "Sítio completo para eventos, férias e fins de semana em família".
+- Ocasiões: aniversários, confraternizações, encontros de família, férias, descanso. Valor de férias e de grupos maiores se combina no WhatsApp.
 
 Em aberto:
 
-- Número de WhatsApp para reservas: o dono informa depois. Fica marcado num lugar só do código.
+- Número de WhatsApp para reservas: o dono informa depois. Fica num lugar só (`assets/js/site.js`); aceita o número com DDD e coloca o 55 sozinho.
 - Endereço exato, mapa, Instagram: não informados. Não inventar.
 
 ## Brand Commitments
@@ -50,6 +51,7 @@ Em aberto:
 - Nome exato: "Sítio Recanto da Mata".
 - Referência de estrutura e acabamento escolhida pelo dono: o site do Amalfi Marina (amalfimarina.com.br), página de lançamento imobiliário. Vale como referência de estrutura e de cuidado, não como cópia.
 - Português do Brasil em toda a página.
+- Visual: "Clássico de natureza", o padrão dos sites de lançamento (como o Amalfi) feito com capricho: foto real em tela cheia, verde-mata e areia, títulos elegantes. Escolha do dono em 23/10/2026, depois de recusar o estilo "casa mineira caiada" por não combinar com natureza e sítio. Mudar de estilo é decisão dele.
 
 ## Evidence on Hand
 
