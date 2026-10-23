@@ -35,16 +35,9 @@ número ainda não foi configurado.
 
 ### 2. Prévia do link no WhatsApp
 
-Quando a página tiver um endereço (por exemplo, `https://recantodamata.com.br`),
-troque em `index.html` a linha
-
-```html
-<meta property="og:image" content="assets/img/compartilhar.jpg">
-```
-
-pelo endereço completo da imagem
-(`https://recantodamata.com.br/assets/img/compartilhar.jpg`). É isso que faz
-aparecer a foto do sítio quando alguém manda o link numa conversa.
+Já está pronta para o endereço atual. Se um dia a página ganhar domínio
+próprio, troque em `index.html` o endereço que aparece em `og:url` e em
+`og:image`.
 
 ## Fotos
 
@@ -66,15 +59,19 @@ aparecer a foto do sítio quando alguém manda o link numa conversa.
 
 Abra o arquivo `index.html` com dois cliques: ele abre no navegador.
 
-## Como publicar (quando decidir)
+## Onde a página está publicada
 
-Qualquer hospedagem de site estático serve, porque a página não tem servidor
-nem banco de dados. Duas opções gratuitas:
+Na Vercel, no projeto `sitio-recanto-da-mata`:
+https://sitio-recanto-da-mata-two.vercel.app
 
-- **Vercel** (a mesma do Incendence): "Add New Project", escolher este
-  repositório e publicar sem mudar nenhuma configuração.
-- **GitHub Pages**: em Settings → Pages, escolher a branch `main` e a pasta
-  `/ (root)`.
+O projeto está ligado a este repositório. A Vercel publica sozinha o que
+entra na branch `main`. Enquanto o trabalho estiver na branch
+`claude/intelligent-hawking-xt8950`, a publicação é feita a partir dela.
+Para a página se atualizar sozinha a cada mudança, essa branch precisa ser
+juntada à `main` (por um pull request no GitHub).
+
+O arquivo `.vercelignore` deixa de fora do site o zip do Impeccable, as fotos
+originais e os documentos internos.
 
 ## Arquivos de projeto
 
