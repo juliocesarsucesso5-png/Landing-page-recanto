@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T20:35:25+00:00",
+  "title": "Design System: Sítio Recanto da Mata",
+  "extensions": {
+    "colorMeta": {
+      "verde": {
+        "role": "primary",
+        "displayName": "Verde-Mata",
+        "canonical": "oklch(30.6% 0.038 155.5)",
+        "tonalRamp": [
+          "oklch(15% 0.038 155.5)",
+          "oklch(26% 0.038 155.5)",
+          "oklch(37% 0.038 155.5)",
+          "oklch(48% 0.038 155.5)",
+          "oklch(60% 0.038 155.5)",
+          "oklch(72% 0.038 155.5)",
+          "oklch(84% 0.038 155.5)",
+          "oklch(95% 0.038 155.5)"
+        ]
+      },
+      "verde-2": {
+        "role": "primary",
+        "displayName": "Verde-Mata Aceso",
+        "canonical": "oklch(36.3% 0.044 155.8)",
+        "tonalRamp": [
+          "oklch(15% 0.044 155.8)",
+          "oklch(26% 0.044 155.8)",
+          "oklch(37% 0.044 155.8)",
+          "oklch(48% 0.044 155.8)",
+          "oklch(60% 0.044 155.8)",
+          "oklch(72% 0.044 155.8)",
+          "oklch(84% 0.044 155.8)",
+          "oklch(95% 0.044 155.8)"
+        ]
+      },
+      "latao": {
+        "role": "secondary",
+        "displayName": "Latão",
+        "canonical": "oklch(68.3% 0.087 76.2)",
+        "tonalRamp": [
+          "oklch(15% 0.087 76.2)",
+          "oklch(26% 0.087 76.2)",
+          "oklch(37% 0.087 76.2)",
+          "oklch(48% 0.087 76.2)",
+          "oklch(60% 0.087 76.2)",
+          "oklch(72% 0.087 76.2)",
+          "oklch(84% 0.087 76.2)",
+          "oklch(95% 0.087 76.2)"
+        ]
+      },
+      "latao-texto": {
+        "role": "secondary",
+        "displayName": "Latão de Texto",
+        "canonical": "oklch(48.4% 0.073 76.6)",
+        "tonalRamp": [
+          "oklch(15% 0.073 76.6)",
+          "oklch(26% 0.073 76.6)",
+          "oklch(37% 0.073 76.6)",
+          "oklch(48% 0.073 76.6)",
+          "oklch(60% 0.073 76.6)",
+          "oklch(72% 0.073 76.6)",
+          "oklch(84% 0.073 76.6)",
+          "oklch(95% 0.073 76.6)"
+        ]
+      },
+      "areia": {
+        "role": "neutral",
+        "displayName": "Areia",
+        "canonical": "oklch(96.4% 0.01 93.6)",
+        "tonalRamp": [
+          "oklch(15% 0.01 93.6)",
+          "oklch(26% 0.01 93.6)",
+          "oklch(37% 0.01 93.6)",
+          "oklch(48% 0.01 93.6)",
+          "oklch(60% 0.01 93.6)",
+          "oklch(72% 0.01 93.6)",
+          "oklch(84% 0.01 93.6)",
+          "oklch(95% 0.01 93.6)"
+        ]
+      },
+      "areia-2": {
+        "role": "neutral",
+        "displayName": "Areia Funda",
+        "canonical": "oklch(93.1% 0.015 90.2)",
+        "tonalRamp": [
+          "oklch(15% 0.015 90.2)",
+          "oklch(26% 0.015 90.2)",
+          "oklch(37% 0.015 90.2)",
+          "oklch(48% 0.015 90.2)",
+          "oklch(60% 0.015 90.2)",
+          "oklch(72% 0.015 90.2)",
+          "oklch(84% 0.015 90.2)",
+          "oklch(95% 0.015 90.2)"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "oklch(24.7% 0.014 154.2)",
+        "tonalRamp": [
+          "oklch(15% 0.014 154.2)",
+          "oklch(26% 0.014 154.2)",
+          "oklch(37% 0.014 154.2)",
+          "oklch(48% 0.014 154.2)",
+          "oklch(60% 0.014 154.2)",
+          "oklch(72% 0.014 154.2)",
+          "oklch(84% 0.014 154.2)",
+          "oklch(95% 0.014 154.2)"
+        ]
+      },
+      "tinta-2": {
+        "role": "neutral",
+        "displayName": "Tinta Suave",
+        "canonical": "oklch(48.4% 0.017 138.7)",
+        "tonalRamp": [
+          "oklch(15% 0.017 138.7)",
+          "oklch(26% 0.017 138.7)",
+          "oklch(37% 0.017 138.7)",
+          "oklch(48% 0.017 138.7)",
+          "oklch(60% 0.017 138.7)",
+          "oklch(72% 0.017 138.7)",
+          "oklch(84% 0.017 138.7)",
+          "oklch(95% 0.017 138.7)"
+        ]
+      },
+      "sobre-verde": {
+        "role": "neutral",
+        "displayName": "Sobre Verde",
+        "canonical": "oklch(96.4% 0.01 93.6)",
+        "tonalRamp": [
+          "oklch(15% 0.01 93.6)",
+          "oklch(26% 0.01 93.6)",
+          "oklch(37% 0.01 93.6)",
+          "oklch(48% 0.01 93.6)",
+          "oklch(60% 0.01 93.6)",
+          "oklch(72% 0.01 93.6)",
+          "oklch(84% 0.01 93.6)",
+          "oklch(95% 0.01 93.6)"
+        ]
+      },
+      "sobre-verde-2": {
+        "role": "neutral",
+        "displayName": "Sobre Verde Suave",
+        "canonical": "oklch(83.8% 0.021 131.5)",
+        "tonalRamp": [
+          "oklch(15% 0.021 131.5)",
+          "oklch(26% 0.021 131.5)",
+          "oklch(37% 0.021 131.5)",
+          "oklch(48% 0.021 131.5)",
+          "oklch(60% 0.021 131.5)",
+          "oklch(72% 0.021 131.5)",
+          "oklch(84% 0.021 131.5)",
+          "oklch(95% 0.021 131.5)"
+        ]
+      },
+      "veu": {
+        "role": "neutral",
+        "displayName": "Véu",
+        "canonical": "oklch(18.8% 0.021 153.6)",
+        "tonalRamp": [
+          "oklch(15% 0.021 153.6)",
+          "oklch(26% 0.021 153.6)",
+          "oklch(37% 0.021 153.6)",
+          "oklch(48% 0.021 153.6)",
+          "oklch(60% 0.021 153.6)",
+          "oklch(72% 0.021 153.6)",
+          "oklch(84% 0.021 153.6)",
+          "oklch(95% 0.021 153.6)"
+        ]
+      },
+      "branco-campo": {
+        "role": "neutral",
+        "displayName": "Branco de Campo",
+        "canonical": "oklch(100.0% 0.0 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.0 89.9)",
+          "oklch(26% 0.0 89.9)",
+          "oklch(37% 0.0 89.9)",
+          "oklch(48% 0.0 89.9)",
+          "oklch(60% 0.0 89.9)",
+          "oklch(72% 0.0 89.9)",
+          "oklch(84% 0.0 89.9)",
+          "oklch(95% 0.0 89.9)"
+        ]
+      },
+      "linha": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "rgb(28 35 30 / 0.14)"
+      },
+      "linha-clara": {
+        "role": "neutral",
+        "displayName": "Filete Claro",
+        "canonical": "rgb(245 243 236 / 0.22)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Só o nome do sítio na abertura."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de cada seção (h2)."
+      },
+      "headline-ambiente": {
+        "displayName": "Headline de Ambiente",
+        "purpose": "Nome de cada ambiente."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Títulos de terceiro nível em Caslon: ocasiões, grupos do Lazer, menu do celular, rodapé."
+      },
+      "numero": {
+        "displayName": "Número",
+        "purpose": "Preço e números da faixa de fatos, em Caslon com algarismos alinhados."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Parágrafo de abertura de cada seção."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido, 18px."
+      },
+      "item": {
+        "displayName": "Item",
+        "purpose": "Nome de item em listas."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Legendas, rodapé, notas."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Botões, menu, links de ação e rótulos de campo, em caixa-alta espaçada."
+      }
+    },
+    "shadows": [
+      {
+        "name": "filete-do-topo",
+        "value": "0 1px 0 rgb(28 35 30 / 0.14)",
+        "purpose": "Linha sob o topo quando ele fica sólido ou com o menu aberto."
+      },
+      {
+        "name": "sombra-do-flutuante",
+        "value": "0 8px 16px -8px rgb(12 22 15 / 0.6)",
+        "purpose": "Só no botão flutuante do WhatsApp, que passa sobre fotos."
+      },
+      {
+        "name": "halo-do-titulo",
+        "value": "text-shadow: 0 1px 18px rgb(8 16 11 / 0.35)",
+        "purpose": "Só no texto da abertura, para ler sobre a foto."
+      },
+      {
+        "name": "veu-da-abertura",
+        "value": "linear-gradient(180deg, rgb(12 22 15 / 0.62) 0%, rgb(12 22 15 / 0.2) 30%, rgb(12 22 15 / 0.28) 58%, rgb(12 22 15 / 0.78) 100%)",
+        "purpose": "Véu sobre a foto da abertura no computador."
+      },
+      {
+        "name": "veu-da-faixa",
+        "value": "linear-gradient(180deg, rgb(12 22 15 / 0.15), rgb(12 22 15 / 0.7))",
+        "purpose": "Véu sobre a faixa de foto com frase."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Curva única do sistema: saída longa e macia."
+      },
+      {
+        "name": "cor",
+        "value": "0.2s–0.25s",
+        "purpose": "Troca de cor de botões, filtros e opções."
+      },
+      {
+        "name": "topo",
+        "value": "0.35s",
+        "purpose": "Topo passando de transparente a sólido."
+      },
+      {
+        "name": "flutuante",
+        "value": "0.45s var(--ease)",
+        "purpose": "Entrada e saída do botão flutuante (translateY 160% → 0)."
+      },
+      {
+        "name": "zoom-galeria",
+        "value": "0.8s var(--ease), scale(1.04)",
+        "purpose": "Foto da galeria no hover."
+      },
+      {
+        "name": "sobe",
+        "value": "1.1s var(--ease), translateY(18px) → 0, atraso de 0.12s por linha",
+        "purpose": "Texto da abertura entrando uma vez."
+      },
+      {
+        "name": "assenta",
+        "value": "9s var(--ease), scale(1.08) → 1",
+        "purpose": "Foto da abertura assentando devagar."
+      },
+      {
+        "name": "reduzir-movimento",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Animações não são ativadas; transições ficam instantâneas."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "galeria-3",
+        "value": "700px"
+      },
+      {
+        "name": "colunas",
+        "value": "900px"
+      },
+      {
+        "name": "grade-12",
+        "value": "960px"
+      },
+      {
+        "name": "computador",
+        "value": "1000px"
+      },
+      {
+        "name": "galeria-4",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão Principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal, sempre para o WhatsApp; retângulo verde reto com rótulo espaçado.",
+      "html": "<a class=\"ds-botao\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.8 15.8L3.8 20.2l4.1-1.4A8.3 8.3 0 1 0 4.8 15.8z\"/><path d=\"M9.3 8.3c.3-.5.9-.5 1.2 0l.7 1.5c.1.3 0 .6-.2.8l-.6.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.6c.2-.2.5-.3.8-.2l1.5.7c.5.3.5.9 0 1.2-.7.5-1.6.8-2.4.5a8.7 8.7 0 0 1-5.2-5.2c-.3-.8 0-1.7.8-2.1z\"/></svg><span>Consultar datas no WhatsApp</span></a>",
+      "css": ".ds-botao { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 54px; padding: 14px 28px; border: 1px solid #1F3527; border-radius: 0; background: #1F3527; color: #F5F3EC; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: background-color 0.25s, border-color 0.25s; } .ds-botao:hover { background: #2A4534; border-color: #2A4534; } .ds-botao:focus-visible { outline: 2px solid #1F3527; outline-offset: 3px; }"
+    },
+    {
+      "name": "Botão Claro",
+      "kind": "button",
+      "refersTo": "button-claro",
+      "description": "Botão areia sobre foto ou sobre verde (abertura).",
+      "html": "<div class=\"ds-chao-verde\"><a class=\"ds-botao-claro\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.8 15.8L3.8 20.2l4.1-1.4A8.3 8.3 0 1 0 4.8 15.8z\"/><path d=\"M9.3 8.3c.3-.5.9-.5 1.2 0l.7 1.5c.1.3 0 .6-.2.8l-.6.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.6c.2-.2.5-.3.8-.2l1.5.7c.5.3.5.9 0 1.2-.7.5-1.6.8-2.4.5a8.7 8.7 0 0 1-5.2-5.2c-.3-.8 0-1.7.8-2.1z\"/></svg><span>Consultar datas no WhatsApp</span></a></div>",
+      "css": ".ds-chao-verde { background: #1F3527; padding: 32px; } .ds-botao-claro { display: inline-flex; align-items: center; gap: 12px; min-height: 54px; padding: 14px 28px; border: 1px solid #F5F3EC; border-radius: 0; background: #F5F3EC; color: #1F3527; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; transition: background-color 0.25s, border-color 0.25s; } .ds-botao-claro:hover { background: #fff; border-color: #fff; } .ds-botao-claro:focus-visible { outline: 2px solid #F5F3EC; outline-offset: 3px; }"
+    },
+    {
+      "name": "Botão de Contorno",
+      "kind": "button",
+      "refersTo": "button-contorno",
+      "description": "Botão vazado do topo no computador; enche de areia no hover.",
+      "html": "<div class=\"ds-chao-verde-c\"><a class=\"ds-botao-contorno\" href=\"#\">Consultar datas</a></div>",
+      "css": ".ds-chao-verde-c { background: #1F3527; color: #F5F3EC; padding: 32px; } .ds-botao-contorno { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 20px; border: 1px solid currentColor; border-radius: 0; background: transparent; color: inherit; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; transition: background-color 0.25s, color 0.25s, border-color 0.25s; } .ds-botao-contorno:hover { background: #F5F3EC; border-color: #F5F3EC; color: #1F3527; } .ds-botao-contorno:focus-visible { outline: 2px solid #F5F3EC; outline-offset: 3px; }"
+    },
+    {
+      "name": "Campo de Data",
+      "kind": "input",
+      "refersTo": "campo",
+      "description": "Campo de formulário reto, branco, 54px, com rótulo espaçado.",
+      "html": "<div class=\"ds-campo\"><label for=\"ds-chegada\">Data de chegada</label><input id=\"ds-chegada\" type=\"date\"></div>",
+      "css": ".ds-campo { display: grid; gap: 8px; max-width: 34rem; background: #F5F3EC; padding: 24px; } .ds-campo label { font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #1C231E; } .ds-campo input { min-height: 54px; padding: 10px 16px; border: 1px solid rgb(28 35 30 / 0.3); border-radius: 0; background: #fff; font: inherit; font-size: 17px; color: #1C231E; caret-color: #1F3527; } .ds-campo input:hover { border-color: rgb(28 35 30 / 0.55); } .ds-campo input:focus-visible { outline: 2px solid #1F3527; outline-offset: 0; border-color: #1F3527; }"
+    },
+    {
+      "name": "Filtro da Galeria",
+      "kind": "chip",
+      "refersTo": "filtro",
+      "description": "Chip reto com contagem; ativo enche de verde.",
+      "html": "<div class=\"ds-filtros\"><button class=\"ds-filtro\" aria-pressed=\"true\">Todas <span>19</span></button><button class=\"ds-filtro\" aria-pressed=\"false\">Suítes <span>8</span></button><button class=\"ds-filtro\" aria-pressed=\"false\">Casa <span>4</span></button></div>",
+      "css": ".ds-filtros { display: flex; gap: 8px; background: #ECE8DD; padding: 24px; } .ds-filtro { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 18px; border: 1px solid rgb(31 53 39 / 0.35); border-radius: 0; background: transparent; color: #1F3527; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: background-color 0.2s, color 0.2s, border-color 0.2s; } .ds-filtro span { font-weight: 500; letter-spacing: 0; font-variant-numeric: tabular-nums; } .ds-filtro:hover { border-color: #1F3527; } .ds-filtro[aria-pressed='true'] { background: #1F3527; border-color: #1F3527; color: #F5F3EC; } .ds-filtro:focus-visible { outline: 2px solid #1F3527; outline-offset: 3px; }"
+    },
+    {
+      "name": "Topo",
+      "kind": "nav",
+      "refersTo": "topo",
+      "description": "Topo fixo de 72px; sólido em areia depois da abertura, com links em rótulo espaçado e sublinhado de latão no hover.",
+      "html": "<header class=\"ds-topo\"><a class=\"ds-marca\" href=\"#\">Recanto da Mata</a><nav class=\"ds-menu\"><a href=\"#\">O sítio</a><a href=\"#\">Ambientes</a><a href=\"#\">Lazer</a><a href=\"#\">Galeria</a></nav></header>",
+      "css": ".ds-topo { display: flex; align-items: center; gap: 20px; min-height: 72px; padding: 0 24px; background: #F5F3EC; color: #1F3527; box-shadow: 0 1px 0 rgb(28 35 30 / 0.14); } .ds-marca { font-family: 'Libre Caslon Display', Georgia, serif; font-size: 24px; line-height: 1; color: inherit; text-decoration: none; white-space: nowrap; } .ds-menu { display: flex; gap: 4px; margin-left: auto; } .ds-menu a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: inherit; text-decoration: none; text-underline-offset: 5px; text-decoration-thickness: 1px; } .ds-menu a:hover { text-decoration: underline; text-decoration-color: #B8925A; } .ds-menu a:focus-visible { outline: 2px solid #1F3527; outline-offset: 3px; }"
+    },
+    {
+      "name": "Faixa de Fatos",
+      "kind": "custom",
+      "refersTo": "faixa-fatos",
+      "description": "Números grandes em Caslon com rótulo pequeno embaixo, divididos por filetes de 1px.",
+      "html": "<dl class=\"ds-fatos\"><div><dt>Ambientes independentes</dt><dd>3</dd></div><div><dt>Suítes</dt><dd>4</dd></div><div><dt>A partir de · fim de semana</dt><dd>R$ 1.500</dd></div></dl>",
+      "css": ".ds-fatos { display: grid; grid-template-columns: 1fr 1fr 1.35fr; margin: 0; background: #F5F3EC; color: #1F3527; } .ds-fatos > div { display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 4px; padding: 26px 16px 28px; text-align: center; border-right: 1px solid rgb(28 35 30 / 0.14); } .ds-fatos > div:last-child { border-right: 0; } .ds-fatos dt { font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #5A6158; line-height: 1.35; } .ds-fatos dd { margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-size: 40px; line-height: 1.05; font-variant-numeric: lining-nums; }"
+    },
+    {
+      "name": "Item do Lazer",
+      "kind": "custom",
+      "refersTo": "lista-lazer",
+      "description": "Ícone de traço em latão, nome em 650 e descrição suave, sobre o chão verde.",
+      "html": "<section class=\"ds-grupo\"><h3>Água</h3><ul><li><svg viewBox=\"0 0 24 24\" width=\"30\" height=\"30\" aria-hidden=\"true\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 12c2.6-3.6 8.4-5.4 13-.2-4.6 5.2-10.4 3.8-13 .2z\"/><path d=\"M15.5 11.8L21 7.5v9z\"/></svg><div><strong>Lagoa para pesca</strong><span>Para jogar a linha e esperar sem pressa.</span></div></li></ul></section>",
+      "css": ".ds-grupo { background: #1F3527; color: #F5F3EC; padding: 32px; font-family: 'Figtree', system-ui, sans-serif; } .ds-grupo h3 { margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 30px; line-height: 1.1; padding-bottom: 14px; border-bottom: 1px solid #B8925A; } .ds-grupo ul { margin: 0; padding: 0; list-style: none; } .ds-grupo li { display: grid; grid-template-columns: 32px 1fr; gap: 16px; align-items: start; padding-block: 18px; border-bottom: 1px solid rgb(245 243 236 / 0.22); } .ds-grupo svg { color: #B8925A; } .ds-grupo strong { display: block; font-size: 18px; font-weight: 650; line-height: 1.35; } .ds-grupo span { display: block; margin-top: 2px; font-size: 16px; line-height: 1.5; color: #C5CDBF; }"
+    },
+    {
+      "name": "Botão Flutuante do WhatsApp",
+      "kind": "button",
+      "refersTo": "flutuante",
+      "description": "Atalho fixo para o WhatsApp no canto da tela; o único elemento com sombra.",
+      "html": "<a class=\"ds-flutuante\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.8 15.8L3.8 20.2l4.1-1.4A8.3 8.3 0 1 0 4.8 15.8z\"/><path d=\"M9.3 8.3c.3-.5.9-.5 1.2 0l.7 1.5c.1.3 0 .6-.2.8l-.6.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.6c.2-.2.5-.3.8-.2l1.5.7c.5.3.5.9 0 1.2-.7.5-1.6.8-2.4.5a8.7 8.7 0 0 1-5.2-5.2c-.3-.8 0-1.7.8-2.1z\"/></svg><span>Consultar datas</span></a>",
+      "css": ".ds-flutuante { display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 22px 0 18px; border: 2px solid #F5F3EC; border-radius: 0; background: #1F3527; color: #F5F3EC; font-family: 'Figtree', system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; box-shadow: 0 8px 16px -8px rgb(12 22 15 / 0.6); transition: background-color 0.2s; } .ds-flutuante:hover { background: #2A4534; } .ds-flutuante:focus-visible { outline: 2px solid #1F3527; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Clássico de Natureza",
+    "overview": "É o padrão dos sites de lançamento imobiliário (a referência escolhida pelo dono é o Amalfi Marina) executado com capricho para um sítio: a foto real manda, a tipografia é calma e o caminho até o WhatsApp está sempre à vista. A página alterna dois chãos — areia clara e verde-mata profundo — e entre eles corre a foto em tela cheia, sangrada, sem moldura, com um véu escuro só onde o texto precisa ler por cima. O latão aparece em pouquíssimos lugares, como ferragem de casa antiga: filetes, ícones e o traço sob um link.\n\nA densidade é baixa e o ritmo é de respiro. Cada seção ganha muito espaço vertical (de 80 a 144px), os títulos em Libre Caslon Display falam em tom de convite, e o texto corrido em Figtree é grande (18px) para ser lido sem zoom por gente de todas as idades no celular. Hierarquia vem de tamanho, de espaço e da troca de chão (areia → areia-2 → verde), não de caixas, sombras ou cor forte.\n\nO estilo foi escolhido pelo dono em 23/10/2026, depois de recusar a \"casa mineira caiada\" por não combinar com natureza e sítio. A página recusa o modelo de chácara com carrossel, cores fortes e ícones coloridos. Mudar de estilo é decisão do dono.",
+    "keyCharacteristics": [
+      "Foto real em tela cheia, sangrada, com véu verde-escuro em degradê.",
+      "Dois chãos alternados: areia (`#F5F3EC`) e verde-mata (`#1F3527`).",
+      "Latão só em filetes, ícones e sublinhados; nunca em texto sobre areia.",
+      "Títulos em Libre Caslon Display, peso 400; texto em Figtree, 18px.",
+      "Tudo reto: botões, campos, caixas e fotos com canto de 0px.",
+      "Filetes de 1px separam itens de lista; nada de cartão com sombra.",
+      "Botões e rótulos em caixa-alta com espaçamento largo (0.14em)."
+    ],
+    "rules": [
+      {
+        "name": "A Regra dos Dois Chãos",
+        "body": "Toda seção fica sobre areia, areia funda, verde ou foto com véu — nada além disso. Quem cria contraste entre seções é a troca de chão, não uma borda nem uma sombra.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Latão Raro",
+        "body": "O latão é ferragem, não tinta: filete, ícone, sublinhado, contorno. Nunca é fundo, nunca é texto sobre areia, e nunca preenche área: é sempre traço de 1px ou ícone de traço.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Papel do Texto",
+        "body": "Sobre areia, o texto usa `tinta`/`tinta-2`; sobre verde, `sobre-verde`/`sobre-verde-2`. Não se troca um par pelo outro, mesmo quando os valores coincidem.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Caslon em Paz",
+        "body": "O Caslon só aparece em peso 400 e nunca em caixa-alta: a elegância dele vem do desenho, não de negrito nem de espaçamento. Força em título se consegue com tamanho.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Rótulo Espaçado",
+        "body": "Tudo que é ação ou rótulo (botão, menu, nome de campo) é Figtree 700 em caixa-alta com 0.12–0.14em de espaçamento. Texto que se lê nunca fica em caixa-alta.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Toque Grande",
+        "body": "Nenhum elemento que se toca tem menos de 44px de altura; botão principal e campo de formulário têm 54px. Link de texto também ganha os 44px (por `min-height`), não só o botão.",
+        "section": "layout"
+      },
+      {
+        "name": "A Regra do Chão Plano",
+        "body": "Superfícies não flutuam. Caixa, cartão e seção ficam rentes ao chão; sombra só existe no que de fato flutua sobre a página (o botão do WhatsApp) e no que precisa ler sobre foto.",
+        "section": "elevation"
+      },
+      {
+        "name": "A Regra do Véu",
+        "body": "Texto sobre foto exige véu em degradê do verde quase preto (`veu`), nunca preto puro e nunca caixa opaca por cima da imagem. A foto continua visível; o véu só baixa a luz onde o texto passa.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** usar foto real do sítio, sangrada até a borda, recortada em 4:3 (ou 3:4) com `object-fit: cover`.",
+      "**Do** colocar véu em degradê de `rgb(12 22 15 / …)` sob qualquer texto que fique sobre foto.",
+      "**Do** alternar o chão das seções entre areia, areia funda, verde e foto para marcar a passagem de uma parte para outra.",
+      "**Do** separar itens de lista com filetes de 1px (`linha` sobre areia, `linha-clara` sobre verde).",
+      "**Do** escrever títulos em Libre Caslon Display 400 e todo o resto em Figtree, com texto corrido em 18px.",
+      "**Do** usar o rótulo espaçado (Figtree 700, 13px, caixa-alta, 0.14em) em botões, menu e nomes de campo.",
+      "**Do** manter 44px de alvo em tudo que se toca e 54px em botão principal e campo.",
+      "**Do** levar todo caminho de ação para o WhatsApp, com o ícone de traço do balão ao lado do rótulo.",
+      "**Do** escrever números em destaque (preço, quantidades) em Caslon com algarismos alinhados.",
+      "**Do** dizer em texto, com ícone de traço em latão, o que ainda não tem foto."
+    ],
+    "donts": [
+      "**Don't** usar foto de banco de imagens nem ilustração que se passe pelo sítio.",
+      "**Don't** arredondar botões, campos, caixas ou fotos; o círculo fica restrito aos números dos passos e aos controles do visor.",
+      "**Don't** usar o latão (`#B8925A`) como texto ou fundo sobre areia (2,59:1); quando precisar ser lido sobre areia, use `latao-texto`.",
+      "**Don't** colocar sombra em caixa, cartão ou seção; sombra é só do botão flutuante.",
+      "**Don't** usar carrossel automático, cores fortes ou ícones coloridos — o modelo de chácara que o estilo recusa.",
+      "**Don't** pôr vermelho em aviso de formulário; o aviso é verde.",
+      "**Don't** usar Caslon em negrito ou em caixa-alta.",
+      "**Don't** pôr texto de leitura em caixa-alta; caixa-alta é só para rótulo e ação.",
+      "**Don't** escrever hex solto no meio do CSS quando já existe uma variável de `:root` com o papel certo."
+    ]
+  }
+}
